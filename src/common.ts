@@ -1,0 +1,5 @@
+const initPrompt = "..."
+
+export {
+  initPrompt
+}

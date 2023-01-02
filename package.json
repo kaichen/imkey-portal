@@ -1,0 +1,33 @@
+{
+  "name": "imkey-portal",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@imkey/web3-provider": "../imkey-web3-provider",
+    "ethers": "^5.7.2",
+    "evergreen-ui": "^6.13.2",
+    "node-stdlib-browser": "^1.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "rollup-plugin-polyfill-node": "^0.11.0",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.5",
+    "vite-plugin-node-stdlib-browser": "^0.1.1"
+  },
+  "browser": {
+    "crypto": "crypto-browserify",
+    "stream": "stream-browserify"
+  }
+}
