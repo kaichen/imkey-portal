@@ -2,6 +2,8 @@
 
 Static webpage for imKey provider integration testing
 
+see screenshot => <https://imgur.com/a/1eZDqDV>
+
 ## Tech Stack
 - typescript
 - react
