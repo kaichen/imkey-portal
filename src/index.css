@@ -27,8 +27,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
 }
 
@@ -47,6 +45,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-top: 1em;
 }
 button:hover {
   border-color: #646cff;
@@ -54,6 +53,25 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.field-group {
+  width: 100%;
+  margin: .3rem auto;
+}
+
+.field-group option {
+  width: 100%;
+}
+
+.field-group input {
+  width: 100%;
 }
 
 @media (prefers-color-scheme: light) {
